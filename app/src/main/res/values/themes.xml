@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NotesApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#F3C200</item>
+        <item name="colorPrimaryDark">#F3C200</item>
+        <item name="colorAccent">#F3C200</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.NotesApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NotesApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NotesApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
